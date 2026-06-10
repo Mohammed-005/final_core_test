@@ -11,7 +11,7 @@ app = Flask(__name__)
 def home():
     proj_name = os.environ.get("PROJECT_NAME", "Training")
     print(Fore.GREEN + Style.BRIGHT + f"Successfully verified core foundations for project: {proj_name}")
-    return f"<h1>Successfully verified core foundations for project: {proj_name}</h1>"
+    return f"<h1>🚀 CI/CD AUTOMATION LOOP COMPLETED SUCCESSFULLY, BRO!!! 🚀</h1>"
 
 if __name__ == "__main__":
     # This keeps the container alive and listening for cloud web traffic!
